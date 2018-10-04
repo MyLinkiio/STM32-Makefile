@@ -1,0 +1,5 @@
+halt
+flash write_image erase /foo/bar.hex :
+reset
+flash banks
+flash erase_check 0  
